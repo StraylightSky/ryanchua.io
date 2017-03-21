@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited, a:hover, a:active {
+  display: inline-block;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body {
+  color: #667273;
+  line-height: 1.6;
+}
+
+em {
+  color: #27ae60;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 140%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 75%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+}
+
+.btn {
+  border-style: none;
+  background-color: #27ae60;
+  border-radius: 5px;
+  color: #ecf0f1;
+  cursor: pointer;
+  font-size: 80%;
+  margin-top: 10px;
+  min-width: 120px;
+  padding: 5px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #24a058;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social--item {
+  color: inherit;
+  margin: 0 5px;
+  transition: color 0.2s;
+}
+
+.social--item:hover {
+  color: #464e4f;
+}
